@@ -1,0 +1,132 @@
+.scoreName {
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+  color: rgb(238, 227, 237);
+}
+
+.scoreScore {
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+  color: rgb(238, 227, 237);
+}
+
+.scoreboard-container {
+  background-color: #030226;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+}
+
+.row {
+  justify-content: center;
+}
+
+.scoreboardParagraph {
+  color: #f23869;
+  font-family: "Megrim", cursive;
+  font-size: 100px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.scoreButton {
+  background-color: #0b0340e1 !important;
+  color: #f23869 !important;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px !important;
+  text-align: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .scoreboardParagraph {
+    color: #f23869;
+    font-family: "Megrim", cursive;
+    font-size: 80px;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+}
+
+.scoreboardFont {
+  color: rgb(197, 176, 195);
+  font-family: "Megrim", cursive;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.list-container {
+  width: 500px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+  border-radius: 12px;
+}
+
+.name-score-row {
+  outline: black;
+  border-width: thin;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .list-container {
+    width: 500px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+  }
+
+  .name-score-row {
+    outline: black;
+    border-width: thin;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+}
+
+.btn-primary {
+  background-color: #0b0340e1 !important;
+  color: #f23869 !important;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 50px !important;
+  text-align: center;
+  justify-content: center;
+  border-radius: 12px;
+  margin: 45px;
+  width: 250px;
+  height: 100px;
+}
+
+.flipper {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+  -ms-transition: 0.6s;
+  -ms-transform-style: preserve-3d;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.flip-container:hover .flipper,
+.flip-container.hover .flipper,
+#flip-toggle.flip .flipper {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+html,
+body {
+  height: 100%;
+}

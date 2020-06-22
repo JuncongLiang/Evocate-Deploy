@@ -1,0 +1,22 @@
+.footer {
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+  color: #a299a598 !important;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.push {
+  height: 40px;
+}
+
+.row {
+  justify-content: center;
+  margin: 0 auto;
+}
+
+html,
+body {
+  height: 100%;
+}

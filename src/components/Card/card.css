@@ -1,0 +1,30 @@
+.Card {
+  flex: 1;
+}
+
+.Card:hover {
+  cursor: pointer;
+}
+
+.Card img,
+.flippy-cardContainer img {
+  width: 135px;
+  height: 135px;
+}
+
+.my-flippy {
+  margin: 20px;
+}
+
+.cardBorder {
+  border-radius: 12px;
+  size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Card img,
+  .flippy-cardContainer img {
+    width: 100px;
+    height: 100px;
+  }
+}

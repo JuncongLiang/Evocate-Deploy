@@ -1,0 +1,25 @@
+.color-nav {
+  /* background-image: linear-gradient(#f23869, #0b0340b0); */
+  background-image: linear-gradient(to right, #c34869, #221a57ea);
+  font-size: 20px;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #faf6f9b0 !important;
+}
+
+.navbar-toggler-icon {
+  background-color: #f2386aaf !important;
+  border-radius: 6px;
+}
+
+.navbarFont {
+  color: #0b0340b0 !important;
+  font-weight: bold;
+}
+
+.navbarFontMain {
+  color: #0b0340b0 !important;
+  font-size: 40px !important;
+  padding-right: 20px;
+  font-family: "Megrim", cursive;
+  font-weight: 900;
+}
